@@ -813,8 +813,8 @@
             /// <param name="callback" type="Function">A callback function to execute when an error occurs on the connection</param>
             /// <returns type="signalR" />
             var connection = this;
-            $(connection).bind(events.onError, function (e, data) {
-                callback.call(connection, data);
+            $(connection).bind(events.onError, function (e, a, b) {
+                callback.call(connection, a, b);
             });
             return connection;
         },
