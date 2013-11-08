@@ -33,7 +33,7 @@ namespace Microsoft.AspNet.SignalR.Tests.Common.Infrastructure.IIS
         public SiteManager(string path)
         {
             _path = Path.GetFullPath(path);
-            _appHostConfigPath = Path.GetFullPath(Path.Combine(_path, "bin", "config", "applicationHost.config"));
+            _appHostConfigPath = Path.GetFullPath(Path.Combine(_path, "config", "applicationHost.config"));
             _serverManager = new ServerManager(_appHostConfigPath);
         }
 
