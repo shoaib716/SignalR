@@ -1,15 +1,17 @@
+// Copyright (c) Microsoft Open Technologies, Inc. All rights reserved. See License.md in the project root for license information.
+
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using Android.App;
 
 // Information about this assembly is defined by the following attributes.
 // Change them to the values specific to your project.
-[assembly: AssemblyTitle ("SignalRSample")]
-[assembly: AssemblyDescription ("")]
+[assembly: AssemblyTitle ("Microsoft.AspNet.SignalR.Xamarin.Sample")]
+[assembly: AssemblyDescription ("Sample for SignalR")]
 [assembly: AssemblyConfiguration ("")]
 [assembly: AssemblyCompany ("")]
 [assembly: AssemblyProduct ("")]
-[assembly: AssemblyCopyright ("abhisheknanda")]
+[assembly: AssemblyCopyright ("Copyright © Microsoft 2012")]
 [assembly: AssemblyTrademark ("")]
 [assembly: AssemblyCulture ("")]
 // The assembly version has the format "{Major}.{Minor}.{Build}.{Revision}".
